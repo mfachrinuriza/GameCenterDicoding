@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Pods-Common in Pods, no dependencies
+Pods-Favorite in Pods, no dependencies
+Pods-Game in Pods, no dependencies
+Pods-Profile in Pods, no dependencies
+SwiftLint in Pods, no dependencies
+Swinject in Pods, no dependencies
+SwinjectAutoregistration in Pods, depends on:
+Swinject in Pods (explicit)
+Pods-final project in Pods, depends on:
+SwiftLint in Pods (explicit)
+Swinject in Pods (explicit)
+SwinjectAutoregistration in Pods (explicit)

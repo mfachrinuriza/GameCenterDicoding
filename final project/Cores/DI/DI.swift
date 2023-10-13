@@ -6,6 +6,9 @@
 //
 
 import Swinject
+import Game
+import Favorite
+import Profile
 
 protocol DIProtocol {
     static func get<T>(_ type: T.Type, name: String?) -> T

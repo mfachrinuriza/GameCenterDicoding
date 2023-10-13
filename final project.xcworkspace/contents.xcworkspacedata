@@ -5,6 +5,24 @@
       location = "group:final project.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:../Cores/Cores.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Common/Common.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Game/Game.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Favorite/Favorite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Profile/Profile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Sample/Sample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

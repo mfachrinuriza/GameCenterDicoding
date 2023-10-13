@@ -1,12 +1,12 @@
 PODS:
-  - Alamofire (5.6.1)
+  - Alamofire (5.4.4)
   - Kingfisher (7.6.1)
-  - RxCocoa (6.5.0):
-    - RxRelay (= 6.5.0)
-    - RxSwift (= 6.5.0)
-  - RxRelay (6.5.0):
-    - RxSwift (= 6.5.0)
-  - RxSwift (6.5.0)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
   - ShimmerSwift (2.1.1)
   - SwiftLint (0.40.1)
   - Swinject (2.8.3)
@@ -15,6 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - Alamofire (= 5.4.4)
   - Kingfisher (= 7.6.1)
   - RxCocoa
   - RxSwift
@@ -36,16 +37,16 @@ SPEC REPOS:
     - SwinjectAutoregistration
 
 SPEC CHECKSUMS:
-  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   Kingfisher: 93a3c6d0d551658a31e19f21747e1d15cb39d525
-  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
-  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
-  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   ShimmerSwift: f7ed2daf9c246de8299dfd9e12c6ab465cba9842
   SwiftLint: bbfed21bf4451dcbd0f5cdbee44a18e06cf91b12
   Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
   SwinjectAutoregistration: e3ee378dc458acf78d176fc7fec3902603452667
 
-PODFILE CHECKSUM: 6edac92677b42a502cc957699f9098488a7f4a21
+PODFILE CHECKSUM: 30ad06b2b3f06bfb6d2f6c3e27c9b3fdf28b0eb9
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.11.3

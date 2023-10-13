@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Cores
 
 class MainViewController: UITabBarController {
     
@@ -23,13 +24,13 @@ class MainViewController: UITabBarController {
     }
     
     func setupUI() {
-        let home = ModuleBuilder.getView(module: .home)
+        let home = Router.shared.getView(for: .home)
         home.title = "Home"
         
-        let favorite = ModuleBuilder.getView(module: .favorite)
+        let favorite = Router.shared.getView(for: .favorite)
         favorite.title = "Favorite"
         
-        let profile = ModuleBuilder.getView(module: .profile)
+        let profile = Router.shared.getView(for: .profile)
         profile.title = "Profile"
         
         self.setViewControllers([home, favorite, profile], animated: false)

@@ -7,24 +7,24 @@
 
 import UIKit
 import CoreData
+import Cores
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
+    private let navigator = DI.get(Navigator.self)
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let mainViewController = MainViewController()
-        
-        let navigationController = UINavigationController(rootViewController: mainViewController)
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
+        window?.rootViewController = navigator.navigationController
         window?.makeKeyAndVisible()
 //        navigationController.navigationBar.barTintColor = .black
-        navigationController.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        navigationController.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-        navigationController.navigationBar.tintColor = .white
-        
+        navigator.navigationController.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        navigator.navigationController.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navigator.navigationController.navigationBar.tintColor = .white
+        navigator.start()
         return true
     }
     
@@ -70,5 +70,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
+    
 }
-
